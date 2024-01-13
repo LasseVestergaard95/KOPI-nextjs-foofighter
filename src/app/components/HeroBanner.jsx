@@ -10,7 +10,8 @@ export default function HeroBanner() {
     >
       <div className="bg-background bg-opacity-70 h-full pl-16 pr-5 pt-10">
         <Image
-        src="./foo-festival-logo.svg"
+        // Her har jeg fjernet "." fra src så logo ikke længere forsvinder
+        src="/foo-festival-logo.svg"
         alt="Foo Festival logo"
         width={277}
         height={488}></Image>
